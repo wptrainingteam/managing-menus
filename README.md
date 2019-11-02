@@ -6,7 +6,7 @@
 
 ## Description
 
-> A short paragraph explaining what is covered in the lesson plan. This should be text that can be copied and used in a meetup or workshop description.
+Menus provide a list of links for website navigation. In this lesson you'll learn how to create menus with links to pages and other content, how to place menus in various locations, and how to customize and manage menus.
 
 ## Objectives
 
