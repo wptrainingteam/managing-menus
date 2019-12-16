@@ -333,25 +333,33 @@ WordPress includes a "Custom Menu" widget that can add a menu to a sidebar. This
 3.  Planning document
 4.  All of the above
 
-**Answer:** 4\. All of the above **What is the default menu provided by most WordPress themes?**
+**Answer:** 4\. All of the above 
+
+**What is the default menu provided by most WordPress themes?**
 
 1.  Main menu
 2.  Primary menu
 3.  Header menu
 
-**Answer:** 2. Primary menu **Which is not listed in the choices for a type of menu item?**
+**Answer:** 2. Primary menu 
+
+**Which is not listed in the choices for a type of menu item?**
 
 1.  Page
 2.  Category
 3.  Image
 
-**Answer:** 3. Image **How do you create a multi-level menu?**
+**Answer:** 3. Image 
+
+**How do you create a multi-level menu?**
 
 1.  Select multi-level when creating the menu.
 2.  Use the Parent function of the pages.
 3.  Drag the lower level menu items to the right.
 
-**Answer:** 3\. Drag the lower level menu items to the right. **What do you need to make a custom link?**
+**Answer:** 3\. Drag the lower level menu items to the right. 
+
+**What do you need to make a custom link?**
 
 1.  Social media account
 2.  URL
