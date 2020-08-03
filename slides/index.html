@@ -18,8 +18,8 @@
 	</header>
 
 	<section class="slide" id="cover">
-		<h2>WordPress Training Team Lesson Plan Slides</h2>
-		<p>The approved format for official Training Team slides</p>
+		<h2>Managing Menues</h2>
+		<p>Providing a list of links for website navigation.</p>
 		<figure>
 			<img class="cover" src="pictures/cover.jpg" alt="WordPress logo blueprint style">
 			<figcaption class="white">
@@ -29,138 +29,305 @@
 	</section>
 
 	<section class="slide">
-		<h2>Key features</h2>
-		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Theme is separated from content</li>
-			<li>Able to be used offline</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
+		<h2>Objective</h2>
+		<p>In this lesson you'll learn how to create menus with links to pages and other content, how to place menus in various locations, and how to customize and manage menus.</p>
 	</section>
 
 	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+		<h2>At the end of this lesson, you will be able to:</h2>
+		<ul>
+			<li>Describe how menus support website navigation.</li>
+			<li>Manage the primary menu in WordPress.</li>
+			<li>Create a custom menu.</li>
+			<li>Modify a menu by adding and removing items.</li>
+			<li>Automate new menu items.</li>
+			<li>Organize menu items by order and level.</li>
+			<li>Place a menu in a secondary theme location.</li>
+			<li>Utilize the "Custom Menu" widget.</li>
+		</ul>
 	</section>
 
 	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+		<h2>Prerequisits</h2>
+		<ul>
+			<li>Ability to operate <a href="https://make.wordpress.org/training/handbook/user-lessons/overview-of-the-dashboard/">the dashboard</a></li>
+			<li>Ability to differentiate <a href="https://make.wordpress.org/training/handbook/user-lessons/pages-vs-posts/">pages and posts</a></li>
+			<li>Knowledge of how to work with <a href="https://make.wordpress.org/training/handbook/user-lessons/categories-vs-tags/">categories and tags</a></li>
+			<li>Understanding of <a href="https://make.wordpress.org/training/handbook/user-lessons/managing-widgets/">how to add widgets to sidebar areas</a></li>
+			<li>Ability to <a href="https://make.wordpress.org/training/handbook/user-lessons/managing-media/">import content into WordPress</a></li>
+			<li>Knowledge of how to <a href="https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-a-theme/">activate a theme</a></li>
+			<li>Setting a <a href="https://codex.wordpress.org/Creating_a_Static_Front_Page">static front page</a> knowledge might be required to demonstrate the whole scope of the menu</li>
+		</ul>
 	</section>
 
 	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
+		<h2 id="assets">Assets</h2>
+<ul>
+<li><a href="https://wordpress.org/themes/twentysixteen/">Twenty Sixteen Theme</a></li>
+<li><a href="http://wordpress.org/themes/twentyfourteen">Twenty Fourteen Theme</a></li>
+<li><a href="https://raw.githubusercontent.com/WPTT/theme-unit-test/master/themeunittestdata.wordpress.xmls">Theme Unit Test Data</a> for sample content, if needed</li>
+</ul>
+
 	</section>
 
 	<section class="slide">
-		<h2>Serious citations</h2>
+<h2 id="screening-questions">Screening Questions</h2>
+<ul>
+<li>Are you able to log in to WordPress as an administrator?</li>
+<li>Are you familiar with using the WordPress dashboard?</li>
+<li>Do you understand that themes control the layout of a website?</li>
+<li>Do you understand how hyperlinks are the primary means of website and web navigation?</li>
+<li>Can you differentiate pages and posts, as well as categories and tags?</li>
+</ul>
+	</section>
+
+	<section class="slide">
+		<h2 id="theme">Theme Menus</h2>
+		<ul>
+		<li>WordPress themes may provide a default menu that automatically adds navigation for the pages of a website.</li> 
+		<li>The default menu is typically displayed on the home page and most pages throughout the website.</li>
+	</ul>
+	<p><img src="pictures/theme-menu.png" alt="Theme provided menu" width="850"></p>
+</section>
+
+<section class="slide">
+	<h2 id="needed" >Theme Menus</h2>
+	<ul class="double">
+		<li>Themes and templates may display menus in whatever manner a designer chooses.</li>
+		<li>Most websites will benefit from modifications of the primary menu along with the user of custom menus to improve navigation for users.</li>
+		<li>Sitemaps can show how content is arranged</li>
+		<li>Wireframes can indicate where actual menus are located and what items to include</li>
+		<li>Other planning documents may describe how users navigate the website</li>
+</ul>
+	</section>
+
+	<section class="slide">
+		<h2 id="primary"></h2>
+		<p>Begin by locating the &quot;primary menu&quot; of your website.</p> 
+		<p>Twenty Twenty theme with a simple primary menu. The menu is located in the upper right corner of the website layout above the header. Your menu may appear in a different location or have different page links.<img src="pictures/twenty-twenty-menu.png" alt="Theme provided menu" width="850"></p>
+
+
+	</section>
+
+	<section class="slide">
+		<h2 id="managing">Managing Menus</h2>
+		<p>Go to <strong>Appearance > Menus</strong></p>
+	<img src="pictures/edit-menus.png" alt="Appearance > Menu > Edit Menu" width="850">
+	</section>
+	<section class="slide" class="locations">
+	<p>The "Manage Locations" tab sets where menus appear in the website layout.</p>
+	<p><img src="pictures/manage-locations.png" alt="Manage Locations tab" width="850"></p>
+	</section>
+
+<section class="slide" id="theme-specific">
+	<ul>
+	<li>Themes can support various menu locations, but all themes should have "Primary Menu" listed as a location. </li>
+	<li>Use the dropdown menu under "Assigned Menu" to select a menu for the primary menu.</li>
+	<li>In this example (using the theme unit test data) the "Short" menu is selected, but try any menu you have available with your content.</li>
+	<li>Menu items that are followed by a downward facing caret (∨) can display a submenu associated with the top menu item. </li>
+	<li>Test navigating the website with the menu items.</li>
+</ul>
+</section>
+
+<section class="slide">
+	<h2 id="custom-menus">Custom Menus</h2>
+<p>You can replace a default menu with a custom menu, and you can create multiple custom menus to use in the various menu locations provided by a theme. Custom menus have many benefits. They can:</p>
+<ul>
+<li>Show or hide specific pages</li>
+<li>Edit labels for pages</li>
+<li>Re-order pages</li>
+<li>Enable multi-level menus</li>
+<li>Add posts and post categories</li>
+<li>Allow for custom links to any URL</li>
+</ul>
+</section>
+
+<section class="slide">
+	<h2>Create a Custom Menu</h2>
+<ul>
+	<li>Go to <strong>Appearance > Menus > Edit Menus</strong></li> 
+	<li>Click the "create a new menu" link</li> 
+	<li>Type a short descriptive "Menu Name", as in this example for "Menu Test," then click the "Create Menu" button</li>
+</ul>
+<p><img src="pictures/create-menu.png" width="850"></p>
+	</section>
+
+	<section class="slide" id="test">
 		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
+			<img class="cover" src="pictures/menu-test.png" alt="Create a menu named Menu Test and save">
 		</figure>
 	</section>
 
 	<section class="slide">
-		<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
+		<p>The new menu is empty to start, and you can add items</p>
+		<img align="right" src="pictures/add-menu-items.png" alt="You can add Posts, Pages, custom links, and more" width="600">
+		<ul>
+			<li>Pages</li>
+			<li>Posts</li>
+			<li>Custom links</li>
+			<li>Categories</li>
+			<li>Tags</li>
+			<li>Formats</li>
+			<li>Use the Screen Options to display more</li>
+		</ul>
+	</section>	
+
+	<section class="slide">
+		<h2 id="adding-pages-to-the-menu">Adding Pages to the Menu</h2>
+		<img align="right" src="pictures/menu-pages.png" alt="Sort pages to add to menu" width="300">
+		<ul>
+			<li>Most Recent</li>
+			<li>View All (reverse chronological)</li>
+			<li>Search</li>
+			<li>Select pages checkboxes</li>
+			<li>Add to Menu</li>
+		</ul>
+	</section>
+
+		<section class="slide">
+		<h2 id="adding-posts-to-the-menu">Adding Posts to the Menu</h2>
+		<img align="right" src="pictures/posts-menu.png" alt="Add Posts to menu" width="300">
+		<ul>
+			<li>Most Recent</li>
+			<li>View All (reverse chronological)</li>
+			<li>Search</li>
+			<li>Select posts checkboxes</li>
+			<li>Add to Menu</li>
+		</ul>
+	</section>
+
+			<section class="slide">
+		<h2 id="adding-categories-to-the-menu">Adding Categories to the Menu</h2>
+		<img align="right" src="pictures/category-menu.png" alt="Add Categories to menu" width="500">
+		<ul>
+			<li>Most Recent</li>
+			<li>View All (reverse chronological)</li>
+			<li>Search</li>
+			<li>Select posts checkboxes</li>
+			<li>Add to Menu</li>
+			<li>Drag to desired level</li>	
+		</ul>
 	</section>
 
 	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
+		<h2 id="custom-link">Custom Links to anything</h2>
+		<img align="right" src="pictures/custom-link.png" alt="Add Custom links to menu" width="500">
+		<ul>
+		<li>Download a PDF document</li>
+		<li>External website</li>
+		<li>Elsewhere on your domain not within WordPress</li>
+	</ul>
+</section>
+		
+	<section class="slide">
+		<h2 id="automate">Automating New Menu Items</h2>
+		<img align="right" src="pictures/auto-add.png" alt="Add Categories to menu" width="500">
+		<ul>
+			<li>Auto Add Pages</li>
+			<li>Does not handle child pages for sub items - manual override</li>
+		</ul>
 	</section>
-
-	<section class="slide" id="picture">
-		<h2>Pictures or Screenshots</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="WordPress logo blueprint style">
-			<figcaption class="white">
-				<a href="https://wp-wallpaper.com/">Created by Michelle Schulp</a>
-			</figcaption>
-		</figure>
-	</section>
+		
 
 	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
+		<h2 id="locations">Managing Menu Locations</h2>
+		<ul columns="double">
+			<li>Primary - at top near header</li>
+			<li>Theme documentation for additional placements</li>
+			<ul><li>Sidebar widgets</li>
+			<li>Footer</li></ul>
+			<li>
+		</ul>
 	</section>
 
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</section>
+<section class="slide">
+<h2 id="widget">Custom Menu Widget</h2>
+	<img align="right" src="pictures/widget-menu.png" alt="Add a navigation menu within Widgets" width="500">
+<ul>
+	<li>Appearances > Widgets</li>
+	<li>Add Navigation Menu widget</li>
+	<li>Select the menu and save</li>
+</ul>
+</section>
 
-	<section class="slide grid">
-		<h2>All nicely aligned to grid</h2>
-	</section>
+<section class="slide">
+	<h2 id="exercise1">Create a new menu that has multiple levels</h2>
+<ul>
+<li>Do the submenus have to mirror the parent/child settings of pages?</li>
+<li>How does it display as a primary menu?</li>
+<li>How does it display as a secondary menu?</li>
+</ul>
+</section>
 
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.png" alt="WordPress logo">
-			<a href="https://github.com/wptrainingteam">Find the team on GitHub</a>
-		</h2>
-	</section>
+<section class="slide">
+	<h2 id="exercise2">Create several custom menu items with external URLs that are not found on your website</h2>
+	<ul>
+<li>Can you add any website page?</li>
+<li>Can you add a social media page?</li>
+<li>Can you configure the link to open in a new window or tab?</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2 id="quiz">What could be used to determine what menus are needed for a website?</h2>
+<ol>
+<li>Site map</li>
+<li>Wireframe</li>
+<li>Planning document</li>
+<li>All of the above</li>
+<li class="next"><strong>Answer:</strong> 4. All of the above </li>
+</ol>
+</section>
+
+<section class="slide">
+<h2 id="quiz2">What is the default menu provided by most WordPress themes?</h2>
+<ol>
+<li>Main menu</li>
+<li>Primary menu</li>
+<li>Header menu</li>
+<li class="next"><strong>Answer:</strong>  2. Primary menu </li>
+</ol>
+</section>
+
+<section class="slide">
+<h2 id="quiz3">Which is not listed in the choices for a type of menu item?</h2>
+<ol>
+<li>Page</li>
+<li>Category</li>
+<li>Image</li>
+<li class="next"><strong>Answer:</strong>  3. Image  </li>
+</ol>
+</section>
+
+<section class="slide">
+<h2 id="quiz4">How do you create a multi-level menu?</h2>
+<ol>
+<li>Select multi-level when creating the menu.</li>
+<li>Use the Parent function of the pages.</li>
+<li>Drag the lower level menu items to the right.</li>
+<li class="next"><strong>Answer:</strong>3. Drag the lower level menu items to the right.  </li>
+</ol>
+</section>
+
+<section class="slide">
+<h2 id="quiz5">What do you need to make a custom link?</h2>
+<ol>
+<li>Social media account</li>
+<li>URL</li>
+<li>Theme support</li>
+<li class="next"><strong>Answer:</strong>2. URL</li>
+</ol>
+</section>
+
+<section class="slide">
+	<h2 id="additional-resources">Additional Resources</h2>
+<ol>
+<li><a href="https://codex.wordpress.org/WordPress_Menu_User_Guide">WordPress Menu User Guide</a> @ Codex</li>
+<li><a href="https://codex.wordpress.org/Navigation_Menus">Navigation Menus</a> @ Codex</li>
+<li><a href="https://codex.wordpress.org/Appearance_Menus_Screen">Appearance Menus Screen</a> @ Codex</li>
+<li>[WordPress Theme Unit Test data] (<a href="https://codex.wordpress.org/Theme_Unit_Test">https://codex.wordpress.org/Theme_Unit_Test</a>) @ Codex</li>
+</ol>
+</section>
 
 	<div class="progress"></div>
 
