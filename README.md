@@ -1,5 +1,3 @@
-# Managing Menus
-
 ## Description
 
 Menus provide a list of links for website navigation. In this lesson you'll learn how to create menus with links to pages and other content, how to place menus in various locations, and how to customize and manage menus.
@@ -56,7 +54,7 @@ You will be better equipped to work through this lesson if you have experience i
 
 ### Introduction
 
-WordPress themes may provide a default menu that automatically adds navigation for the pages of a website. The default menu is typically displayed on the home page and most pages throughout the website. However, themes and templates may display menus in whatever manner a designer chooses. While a default menu can serve a blog or simple website, most websites will benefit from modifications of the primary menu along with the use of custom menus to improve navigation for users. It's helpful to have a plan to indicate what menus are needed for a website. During the web design process you can create a site map to show how content is arranged, wireframes to indicate where actual menus are located and what items to include, and other planning documents may describe how users navigate the website.
+WordPress themes may provide a default menu that automatically adds navigation for the pages of a website. The default menu is typically displayed on the home page and most pages throughout the website. However, themes and templates may display menus in whatever manner a designer chooses. While a default menu can serve a blog or simple website, most websites will benefit from modifications of the primary menu along with the use of custom menus to improve navigation for users. It's helpful to have a plan to indicate what menus are needed for a website. During the web design process, you can create a site map to show how content is arranged, wireframes to indicate where actual menus are located and what items to include, and other planning documents may describe how users navigate the website.
 
 ### The Primary Menu
 
@@ -89,11 +87,11 @@ To start, click the downward triangle to open the "Pages" section, and you'll se
     *   Level 2
         *   Level 3
 
-Notice that WordPress adds the five selected menu items in a flat list in the "Menu Structure" panel, which you may want to customize. First, edit the label of "Level 1"  by clicking the downward pointing triangle next to the level 1 page item to open the configuration options and typing "First Level" in the navigation label field. [![ManagingMenus-Fig7b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig7b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig7b.png) You can see the original page name referenced as the menu link target. Also, notice that a red "Remove" link is available to delete the item from the custom menu.
+Notice that WordPress adds the five selected menu items in a flat list in the "Menu Structure" panel, which you may want to customize. First, edit the label of "Level 1" by clicking the downward pointing triangle next to the level 1 page item to open the configuration options and typing "First Level" in the navigation label field. [![ManagingMenus-Fig7b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig7b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig7b.png) You can see the original page name referenced as the menu link target. Also, notice that a red "Remove" link is available to delete the item from the custom menu.
 
 #### Arranging Menu Items
 
-This may seem counter-intuitive, but WordPress does not automatically create any specific order or hierarchy of your website pages when you add them to a custom menu. WordPress places new menu items to the bottom and at the same level in a flat list, so you'll probably want to rearrange menu items to meet your needs. WordPress does allow for complete flexibility for customizing menus. In addition to editing labels, you can arrange the order and levels of menu items with drag and drop functionality. Grab the "Sample Page" menu item by holding down the left mouse button, and when you see a four-headed arrow, drag the item to the bottom of the list. You'll see a dashed outline to guide the positioning of the item, and you can drop it into place by releasing the mouse button. [![ManagingMenus-Fig9](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig9.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig9.png) Multi-level menus can be used for hierarchical lists and for condensing the screen space used by a menu. Themes may simply display a multi-level menu as an indented hierarchical list, though most theme designs will use dropdown or fly-out functionality to display lower level menu items as users interact with the menu. In this example, since the level 2 and level 3 pages are child pages below the top-level parent page level 1, they would be better arranged in sub-levels below the main level. A site map might show how to arrange them for site navigation, or in the list of WordPress pages they would be nested in a hierarchical arrangement according to the parent settings of pages. Grab the level 2 menu item by holding down the left mouse button, and then drag it to the right. You'll see a dashed outline to guide the positioning of the item, and you can drop it into place by releasing the mouse button. Notice that the menu item now has a gray "sub item" notation next to the menu item label. <span style="line-height: 1.5">[![ManagingMenus-Fig8b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig8b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig8b.png)</span> <span style="line-height: 1.5">Similarly, move the level 3 item below the level 2 item, so that it's nested another level to the right. After you've created sub-level items, the set of items beneath a top-level parent are included in a menu group with the parent, so the entire section can be moved within the menu by grabbing the top parent item.</span> To remove an item from a submenu, simply drag it to the left, so that it is back at the main level. Be sure to click "Save Menu" in the lower right or upper right corners to save the changes to your custom menu.
+This may seem counter-intuitive, but WordPress does not automatically create any specific order or hierarchy of your website pages when you add them to a custom menu. WordPress places new menu items to the bottom and at the same level in a flat list, so you'll probably want to rearrange menu items to meet your needs. WordPress does allow for complete flexibility for customizing menus. In addition to editing labels, you can arrange the order and levels of menu items with drag and drop functionality. Grab the "Sample Page" menu item by holding down the left mouse button, and when you see a four-headed arrow, drag the item to the bottom of the list. You'll see a dashed outline to guide the positioning of the item, and you can drop it into place by releasing the mouse button. [![ManagingMenus-Fig9](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig9.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig9.png) Multi-level menus can be used for hierarchical lists and for condensing the screen space used by a menu. Themes may simply display a multi-level menu as an indented hierarchical list, though most theme designs will use dropdown or fly-out functionality to display lower level menu items as users interact with the menu. In this example, since the level 2 and level 3 pages are child pages below the top-level parent page level 1, they would be better arranged in sub-levels below the main level. A site map might show how to arrange them for site navigation, or in the list of WordPress pages they would be nested in a hierarchical arrangement according to the parent settings of pages. Grab the level 2 menu item by holding down the left mouse button, and then drag it to the right. You'll see a dashed outline to guide the positioning of the item, and you can drop it into place by releasing the mouse button. Notice that the menu item now has a grey "sub item" notation next to the menu item label. <span style="line-height: 1.5">[![ManagingMenus-Fig8b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig8b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig8b.png)</span> <span style="line-height: 1.5">Similarly, move the level 3 item below the level 2 item, so that it's nested another level to the right. After you've created sub-level items, the set of items beneath a top-level parent are included in a menu group with the parent, so the entire section can be moved within the menu by grabbing the top parent item.</span> To remove an item from a submenu, simply drag it to the left, so that it is back at the main level. Be sure to click "Save Menu" in the lower right or upper right corners to save the changes to your custom menu.
 
 #### Adding Posts, Categories, and Tags
 
@@ -117,7 +115,7 @@ For a website that will add new pages that should appear on a menu, there's a us
 
 #### Managing Menu Locations
 
-Any WordPress theme should support a primary menu location, but its location in the layout will depend upon the particular theme. The primary menu is often located near the top of a website layout, either above, below, or adjacent to the header, logo, or website title; but it may be placed on a sidebar or any location chosen by the designer. You can assign menus to the various locations specified for a theme, and you many need to refer to the theme's documentation to determine where they appear. You'll review how changing themes can change the menu locations available, so you can work with a secondary menu. Go to **Appearance > Menus > Manage Locations** to view how menus are assigned to theme locations for the Twenty Sixteen theme. Notice that there is a "Primary Menu" and and "Social Links Menu." [![ManagingMenus-Fig14b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig14b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig14b.png) [info]The "**Social Links Menu**" is a special type of menu that only displays icons related to social media services. You'll work with that in an exercise that follows later, as it's not a typical menu.[/info] To work with a secondary location of a menu, you'll need to switch to a different theme. Go to **Appearance > Themes** in order to activate another theme with different locations. Look for the Twenty Fourteen theme, which is a standard default theme supplied by WordPress, hover your mouse over the theme and select "Activate". [tip]If you do not have the Twenty Fourteen theme, you can use the "Add New" button to install it, or you may activate another theme already available in your WordPress site to review its menu locations.[/tip] With the Twenty Fourteen theme activated, return to "Manage Locations" in menus, and you can see that a secondary menu is available. [![ManagingMenus-Fig15b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig15b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig15b.png) To assign an existing menu to the secondary menu, click "Select a Menu" to access a dropdown list of available menus and select "Short", or pick another custom menu from your list. Notice that you could click on the "Use new menu" link to switch to the "Edit Menus" tab if needed. Be sure to click "Save Changes", then review and test your menus on the front end of the website.
+Any WordPress theme should support a primary menu location, but its location in the layout will depend upon the particular theme. The primary menu is often located near the top of a website layout, either above, below, or adjacent to the header, logo, or website title; but it may be placed on a sidebar or any location chosen by the designer. You can assign menus to the various locations specified for a theme, and you many need to refer to the theme's documentation to determine where they appear. You'll review how changing themes can change the menu locations available, so you can work with a secondary menu. Go to **Appearance > Menus > Manage Locations** to view how menus are assigned to theme locations for the Twenty Sixteen theme. Notice that there is a "Primary Menu" and and "Social Links Menu. "[![ManagingMenus-Fig14b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig14b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig14b.png) [info]The "**Social Links Menu**" is a special type of menu that only displays icons related to social media services. You'll work with that in an exercise that follows later, as it's not a typical menu. [/info] To work with a secondary location of a menu, you'll need to switch to a different theme. Go to **Appearance > Themes** in order to activate another theme with different locations. Look for the Twenty Fourteen theme, which is a standard default theme supplied by WordPress, hover your mouse over the theme and select "Activate". [tip]If you do not have the Twenty Fourteen theme, you can use the "Add New" button to install it, or you may activate another theme already available in your WordPress site to review its menu locations.[/tip] With the Twenty Fourteen theme activated, return to "Manage Locations" in menus, and you can see that a secondary menu is available. [![ManagingMenus-Fig15b](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig15b.png)](https://make.wordpress.org/training/files/2014/10/ManagingMenus-Fig15b.png) To assign an existing menu to the secondary menu, click "Select a Menu" to access a dropdown list of available menus and select "Short", or pick another custom menu from your list. Notice that you could click on the "Use new menu" link to switch to the "Edit Menus" tab if needed. Be sure to click "Save Changes", then review and test your menus on the front end of the website.
 
 ### Custom Menu Widget
 
@@ -150,25 +148,33 @@ WordPress includes a "Custom Menu" widget that can add a menu to a sidebar. This
 3.  Planning document
 4.  All of the above
 
-**Answer:** 4\. All of the above **What is the default menu provided by most WordPress themes?**
+**Answer:** 4\. All of the above 
+
+**What is the default menu provided by most WordPress themes?**
 
 1.  Main menu
 2.  Primary menu
 3.  Header menu
 
-**Answer:** 2. Primary menu **Which is not listed in the choices for a type of menu item?**
+**Answer:** 2. Primary menu 
+
+**Which is not listed in the choices for a type of menu item?**
 
 1.  Page
 2.  Category
 3.  Image
 
-**Answer:** 3. Image **How do you create a multi-level menu?**
+**Answer:** 3. Image 
+
+**How do you create a multi-level menu?**
 
 1.  Select multi-level when creating the menu.
 2.  Use the Parent function of the pages.
 3.  Drag the lower level menu items to the right.
 
-**Answer:** 3\. Drag the lower level menu items to the right. **What do you need to make a custom link?**
+**Answer:** 3\. Drag the lower level menu items to the right. 
+
+**What do you need to make a custom link?**
 
 1.  Social media account
 2.  URL
@@ -181,3 +187,4 @@ WordPress includes a "Custom Menu" widget that can add a menu to a sidebar. This
 1.  [WordPress Menu User Guide](https://codex.wordpress.org/WordPress_Menu_User_Guide) @ Codex
 2.  [Navigation Menus](https://codex.wordpress.org/Navigation_Menus) @ Codex
 3.  [Appearance Menus Screen](https://codex.wordpress.org/Appearance_Menus_Screen) @ Codex
+4.  [WordPress Theme Unit Test data] (https://codex.wordpress.org/Theme_Unit_Test) @ Codex
