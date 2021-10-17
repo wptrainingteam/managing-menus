@@ -187,4 +187,4 @@ WordPress includes a "Custom Menu" widget that can add a menu to a sidebar. This
 1.  [WordPress Menu User Guide](https://codex.wordpress.org/WordPress_Menu_User_Guide) @ Codex
 2.  [Navigation Menus](https://codex.wordpress.org/Navigation_Menus) @ Codex
 3.  [Appearance Menus Screen](https://codex.wordpress.org/Appearance_Menus_Screen) @ Codex
-4.  [WordPress Theme Unit Test data] (https://codex.wordpress.org/Theme_Unit_Test) @ Codex
+4.  [WordPress Theme Unit Test data](https://codex.wordpress.org/Theme_Unit_Test) @ Codex
